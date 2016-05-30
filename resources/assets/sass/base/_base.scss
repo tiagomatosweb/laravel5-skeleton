@@ -1,0 +1,37 @@
+// Base
+// --------------------------------------------------
+
+html {
+    font-size: $app-default-html-font-size;
+    height: 100%;
+}
+
+body {
+    font-family: $app-default-font-family;
+    font-size: $app-default-body-font-size;
+    color: $app-default-font-color;
+    background-color: $app-default-bg-color;
+    background-repeat: $app-default-bg-repeat;
+    background-position: $app-default-bg-position;
+    background-size: $app-default-bg-size;
+}
+
+a {
+    color: $app-default-link-color;
+    text-decoration: none;
+    @include transition(0.2s all ease);
+    outline: none !important;
+}
+
+a:hover,
+a:focus {
+    color: $app-default-link-hover-color;
+    text-decoration: underline;
+    @include transition(0.2s all ease);
+}
+
+h1, h2, h3, h4, h5, h6 {}
+
+button {
+    outline: none;
+}
